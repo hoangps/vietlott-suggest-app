@@ -1,0 +1,107 @@
+body {
+    padding-top: 50px
+}
+
+nav.navbar.navbar-inverse {
+    background-color: red;
+    border-color: red;
+}
+
+nav.navbar-inverse .navbar-brand {
+    color: #fff
+}
+
+nav.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 16px
+}
+
+nav.navbar-inverse .navbar-nav>li.active>a, nav.navbar-inverse .navbar-nav>li>a:hover {
+    background-color: #fff;
+    color: red
+}
+
+nav.navbar-inverse .navbar-toggle {border-color: #fff}
+nav.navbar-inverse .navbar-toggle:hover {background-color: #fff}
+nav.navbar-inverse .navbar-toggle:focus {background-color: #fff}
+
+nav.navbar-inverse .navbar-toggle .icon-bar {background-color: #fff}
+nav.navbar-inverse .navbar-toggle:hover .icon-bar {background-color: red}
+
+nav.navbar-inverse .navbar-collapse {border-color: red}
+
+nav.navbar-inverse .navbar-nav>.active>a:hover {background-color: #fff;color:red}
+
+.tab-content .tab-content-wrapper {
+    padding: 20px;
+}
+
+#statisticsTable .ball img {
+    width: 40px;
+}
+
+#statisticsTable tr,#statisticsTable th {
+    text-align: center;
+}
+
+/* --------- Style from Vietlott.vn -------- */
+
+.red {
+    color: #dd2a3c !important;
+}
+
+.box-result-detail {
+    background: #01022D url(img/result-bg.png) no-repeat right -30px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-top: 10px;
+}
+
+.box-result-detail .logo-jackpot {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 160px;
+}
+
+.box-result-detail .logo-jackpot img {
+    max-width: 100%;
+}
+
+.box-result-detail .time-result {
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 0;
+}
+
+.box-result-detail .result-number {
+    margin: 10px auto 0;
+    text-align: center;
+    padding: 0;
+}
+
+.box-result-detail .result-number img {
+    display: inline-block;
+    margin: 5px 4px;
+    width: 80px;
+    padding-left: 0 !important;
+}
+
+.news-page img {
+    max-width: 100%;
+}
+
+.box-result-detail .jackpot-value {
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+
+/* --------- END Style from Vietlott.vn -------- */
